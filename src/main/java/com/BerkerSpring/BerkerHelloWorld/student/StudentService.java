@@ -18,6 +18,7 @@ public class StudentService {
     }
 
     public List<Student> getStudents(){
+        System.out.println("sdşlfi");
         return studentRepository.findAll();
 
     }
